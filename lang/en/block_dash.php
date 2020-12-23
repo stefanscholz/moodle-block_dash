@@ -126,6 +126,8 @@ $string['enrollmentsnotself'] = 'Non-self enrollments';
 $string['enrollmentstatus'] = 'Enrollment status';
 $string['enrollmenttimeend'] = 'Enrollment end date';
 $string['enrollmenttimestart'] = 'Enrollment start date';
+$string['event_desc_core_event_course_completed'] = '{$a->relateduserfullname} completed the course <a href="{$a->eventurl}" title="View {$a->contextname}">{$a->contextname}</a>';
+$string['event_desc_core_event_role_assigned'] = '{$a->relateduserfullname} was assigned a role in <a href="{$a->eventurl}" title="View {$a->contextname}">{$a->contextname}</a> by {$a->userfullname}';
 $string['event_desc_core_event_user_enrolment_created'] = '{$a->relateduserfullname} was enrolled in <a href="{$a->eventurl}" title="View {$a->contextname}">{$a->contextname}</a>';
 $string['event_desc_generic'] = '{$a->userfullname} {$a->action} <a href="{$a->eventurl}" title="View {$a->contextname}">{$a->contextname}</a>';
 $string['eventbutton'] = 'Event button';
